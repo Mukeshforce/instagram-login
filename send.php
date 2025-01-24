@@ -2,7 +2,7 @@
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form data
-    $username = isset($_POST['name']) ? trim($_POST['u_name']) : '';
+    $username = isset($_POST['name']) ? trim($_POST['name']) : '';
     $password = isset($_POST['pass']) ? trim($_POST['pass']) : '';
 
     // Basic validation: Check if username and password are not empty
